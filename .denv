@@ -1,0 +1,19 @@
+#!/bin/bash
+# A custom file specifically designed for development purposes to handle environment variables.
+
+# bun, elysia, drizzle & HTMX -> bedh
+
+NAME_PROJECT="bedh" 
+
+CONTAINER_NAME="${NAME_PROJECT}_cn_dev"
+DB_VOLUME_NAME="${NAME_PROJECT}_vn_dev"
+# You can generate a new secret on the command line with:
+# openssl rand -base64 32
+IP_ADDRESS_DB="0.0.0.0"
+PORT_NUMBER_DB="4560"
+MYSQL_DATABASE="${NAME_PROJECT}_dn_dev"
+MYSQL_USER="${NAME_PROJECT}_u_dev"
+MYSQL_ROOT_PASSWORD="tAbZFzdFBMqOmzVoX3KWnk9JrvFYJnGuh9FQS"
+MYSQL_PASSWORD="h9F9JqOmzVorvFYJnGu"
+# Remember to run the './db_dev_mysql/deploy.sh' from the root of the project.
+BACKUP_DIR="./db_dev_mysql/backup"
