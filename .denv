@@ -13,7 +13,7 @@ IP_ADDRESS_DB="0.0.0.0"
 PORT_NUMBER_DB="4560"
 MYSQL_DATABASE="${NAME_PROJECT}_dn_dev"
 MYSQL_USER="${NAME_PROJECT}_u_dev"
-MYSQL_ROOT_PASSWORD="tAbZFzdFBMqOmzVoX3KWnk9JrvFYJnGuh9FQS"
-MYSQL_PASSWORD="h9F9JqOmzVorvFYJnGu"
+MYSQL_ROOT_PASSWORD="tAbZFzdFBMqOmzVoX3KWnk9JrvFYJnGuh9FQS" # you can use openssl rand -base64 32
+MYSQL_PASSWORD="h9F9JqOmzVorvFYJnGu" # you can use openssl rand -base64 16
 # Remember to run the './db_dev_mysql/deploy.sh' from the root of the project.
 BACKUP_DIR="./db_dev_mysql/backup"
